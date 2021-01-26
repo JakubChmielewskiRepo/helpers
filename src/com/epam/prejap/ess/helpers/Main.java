@@ -1,4 +1,4 @@
-package pl.chmielewski;
+package com.epam.prejap.ess.helpers;
 
 import java.util.Objects;
 
