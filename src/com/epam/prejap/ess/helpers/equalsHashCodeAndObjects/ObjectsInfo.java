@@ -1,13 +1,15 @@
-package com.epam.prejap.ess.helpers;
+package com.epam.prejap.ess.helpers.equalsHashCodeAndObjects;
 
 import java.util.Objects;
 
 /**
- * the Objects class is final and all of it's methods are static so it cannot be extended, and cannot be accessed from non-static context.
+ * The Objects class is final and all of it's methods are static so it cannot be extended, and cannot be accessed from non-static context.
  *
+ *<code>
  * public static boolean equals(Object a, Object b) {
  *         return (a == b) || (a != null && a.equals(b));
  *     }
+ *</code>
  *
  * Objects.equals(o1,o2) if both objects are null, always returns true.
  * Objects.equals(o1,o2) if one of the objects is null, always returns false.
@@ -16,15 +18,15 @@ import java.util.Objects;
  * It works also for custom objects like Objects.equals(person,person2), but only if the whole objects are null.
  * However if the whole object is not-null, but one or more of the objects fields are null, the result of the operation will depend on o1.equals(o2) method, and it may still produce NPM
  *
- *
- *
+ *<code>
  * public static int hashCode(Object o) {
  *         return o != null ? o.hashCode() : 0;
  *     }
+ *</code>
  *
  * Objects.hashCode(s) prevents from producing NPM which default Object hashCode() does. Objects class implementation for null objects returns int 0 instead.
  */
-public class Main {
+    class ObjectsInfo {
 
     public static void main(String[] args) {
 

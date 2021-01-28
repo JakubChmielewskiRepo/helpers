@@ -1,7 +1,7 @@
-package com.epam.prejap.ess.helpers;
+package com.epam.prejap.ess.helpers.equalsHashCodeAndObjects;
 
 
-public  class Person {
+    class Person {
 
     String name;
     String surmane;
@@ -22,7 +22,4 @@ public  class Person {
         return name.equals(person.name) &&
                 surmane.equals(person.surmane);
     }
-
-
-
 }
