@@ -3,8 +3,8 @@ package com.epam.prejap.ess.helpers.equalshashcodeandobjects;
 
     class Person {
 
-    String name;
-    String surmane;
+    private String name;
+    private String surmane;
 
     Person(String name, String surmane) {
         this.name = name;
