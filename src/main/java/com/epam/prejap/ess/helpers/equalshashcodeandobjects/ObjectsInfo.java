@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.equalsHashCodeAndObjects;
+package com.epam.prejap.ess.helpers.equalshashcodeandobjects;
 
 import java.util.Objects;
 

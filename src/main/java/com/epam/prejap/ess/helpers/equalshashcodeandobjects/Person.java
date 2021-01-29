@@ -1,4 +1,4 @@
-package com.epam.prejap.ess.helpers.equalsHashCodeAndObjects;
+package com.epam.prejap.ess.helpers.equalshashcodeandobjects;
 
 
     class Person {
@@ -6,12 +6,12 @@ package com.epam.prejap.ess.helpers.equalsHashCodeAndObjects;
     String name;
     String surmane;
 
-    public Person(String name, String surmane) {
+    Person(String name, String surmane) {
         this.name = name;
         this.surmane = surmane;
     }
 
-    public Person() {
+    Person() {
     }
 
     @Override
